@@ -1,0 +1,9 @@
+{
+  "sampleRate": 48000,
+  "channels": 2,
+  "frames": 9102712,
+  "duration": 189.63983333333334,
+  "source": "C:\\Users\\user\\Downloads\\ado_show_.m4a",
+  "decoder": "Chrome OfflineAudioContext.decodeAudioData; 48000 Hz PCM; original leading/trailing decoded samples preserved",
+  "sourceSha256": "1c5dc4921f3190502e913acbe842b9050d172fa1fc51875adb6bd6bc0a1df81c"
+}

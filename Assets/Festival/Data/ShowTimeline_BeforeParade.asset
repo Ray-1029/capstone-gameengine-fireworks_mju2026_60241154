@@ -1,0 +1,1109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36364a26301968243bf82663e294f2b1, type: 3}
+  m_Name: ShowTimeline_BeforeParade
+  m_EditorClassIdentifier: Assembly-CSharp::LanternFestival.FireworkShowData
+  music: {fileID: 8300000, guid: d488a785e74b83c40953b1cf0407b8da, type: 3}
+  preRoll: 3.2
+  tailAfterAudio: 9
+  analysisNotes: "Source ado_show_.m4a, decoded duration 189.639833 s, 48000 Hz stereo.
+    Time zero is file start. Measured spectral flux / RMS / band energy, not title/version
+    metadata. Onset resolution 10 ms; allow about \xB125 ms perceptual adjustment.
+    No long leading silence. Playback WAV uses fixed 18x gain (25.105 dB), no trimming/stretching/compression.
+    First grand burst 66.1813 s; last accent 188.0213 s. Near-silent tail about 188.24
+    s to file end. Blue only at 173.9113, 177.5913, 181.1413 s. Three short attacks
+    at 18.9113, 19.1413, 19.3413 s. All launch times are derived from the editable
+    anchor and rise time."
+  cues:
+  - label: "Opening \u2022 one small gold above the roof"
+    musicalEvidence: First prominent broadband attack with simultaneous low-frequency
+      rise; no long leading silence. | Measured spectral-flux peak 0.5713s; flux=0.5579;
+      normalized RMS=0.1479.
+    referenceTime: 0.5713
+    anchor: 0
+    riseTime: 1.45
+    launchPosition: {x: 13, y: 0, z: 72}
+    height: 27
+    scale: 0.38
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 811
+  - label: Opening red reply 1
+    musicalEvidence: Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 4.1113s; flux=0.3543; normalized RMS=0.1346.
+    referenceTime: 4.1113
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -24, y: 0, z: 72}
+    height: 24
+    scale: 0.55
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 948
+  - label: Opening red reply 2
+    musicalEvidence: Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 4.3313s; flux=0.6329; normalized RMS=0.0961.
+    referenceTime: 4.3313
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 29, y: 0, z: 72}
+    height: 24
+    scale: 0.55
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1085
+  - label: Opening red reply 3
+    musicalEvidence: Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 5.2513s; flux=0.6406; normalized RMS=0.0762.
+    referenceTime: 5.2513
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -24, y: 0, z: 72}
+    height: 24
+    scale: 0.64
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1222
+  - label: Opening red reply 4
+    musicalEvidence: Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 5.3913s; flux=0.5554; normalized RMS=0.0756.
+    referenceTime: 5.3913
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 29, y: 0, z: 72}
+    height: 24
+    scale: 0.64
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1359
+  - label: Opening red reply 5
+    musicalEvidence: Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 6.7813s; flux=0.2987; normalized RMS=0.1160.
+    referenceTime: 6.7813
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -24, y: 0, z: 72}
+    height: 24
+    scale: 0.64
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1496
+  - label: Opening red reply 6
+    musicalEvidence: Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 7.1613s; flux=0.2867; normalized RMS=0.1183.
+    referenceTime: 7.1613
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 29, y: 0, z: 72}
+    height: 24
+    scale: 0.64
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1633
+  - label: Opening gold punctuation
+    musicalEvidence: Opening phrase thickens; still below the scale of the first
+      grand explosion. | Measured spectral-flux peak 11.2013s; flux=0.3229; normalized
+      RMS=0.1907.
+    referenceTime: 11.2013
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 6, y: 0, z: 72}
+    height: 32
+    scale: 0.5
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 1770
+  - label: "Triple \u2022 left"
+    musicalEvidence: Three consecutive strong attacks at 18.911 / 19.141 / 19.341
+      s (230 / 200 ms apart). | Measured spectral-flux peak 18.9113s; flux=0.8848;
+      normalized RMS=0.1405.
+    referenceTime: 18.9113
+    anchor: 0
+    riseTime: 1.35
+    launchPosition: {x: -23, y: 0, z: 72}
+    height: 23
+    scale: 0.6
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1907
+  - label: "Triple \u2022 right"
+    musicalEvidence: Three consecutive strong attacks at 18.911 / 19.141 / 19.341
+      s (230 / 200 ms apart). | Measured spectral-flux peak 19.1413s; flux=0.6683;
+      normalized RMS=0.1403.
+    referenceTime: 19.1413
+    anchor: 0
+    riseTime: 1.35
+    launchPosition: {x: 29, y: 0, z: 72}
+    height: 23
+    scale: 0.6
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2044
+  - label: "Triple \u2022 larger centre"
+    musicalEvidence: Three consecutive strong attacks at 18.911 / 19.141 / 19.341
+      s (230 / 200 ms apart). | Measured spectral-flux peak 19.3413s; flux=0.6066;
+      normalized RMS=0.1379.
+    referenceTime: 19.3413
+    anchor: 0
+    riseTime: 1.35
+    launchPosition: {x: 5, y: 0, z: 72}
+    height: 27
+    scale: 0.76
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2181
+  - label: Short phrase variation 1
+    musicalEvidence: Second short transient phrase; position and size vary from the
+      first response. | Measured spectral-flux peak 20.2713s; flux=0.8947; normalized
+      RMS=0.1302.
+    referenceTime: 20.2713
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 31, y: 0, z: 72}
+    height: 25
+    scale: 0.66
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2318
+  - label: Short phrase variation 2
+    musicalEvidence: Second short transient phrase; position and size vary from the
+      first response. | Measured spectral-flux peak 21.0713s; flux=0.6891; normalized
+      RMS=0.1676.
+    referenceTime: 21.0713
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -26, y: 0, z: 72}
+    height: 26
+    scale: 0.66
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2455
+  - label: Short phrase variation 3
+    musicalEvidence: Second short transient phrase; position and size vary from the
+      first response. | Measured spectral-flux peak 21.4113s; flux=0.5266; normalized
+      RMS=0.1618.
+    referenceTime: 21.4113
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 8, y: 0, z: 72}
+    height: 27
+    scale: 0.8
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2592
+  - label: Early pulse 1
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 22.5513s;
+      flux=0.3869; normalized RMS=0.1975.
+    referenceTime: 22.5513
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: -17, y: 0, z: 72}
+    height: 27
+    scale: 0.57
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 2729
+  - label: Early pulse 2
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 26.1813s;
+      flux=0.5939; normalized RMS=0.1394.
+    referenceTime: 26.1813
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 26, y: 0, z: 72}
+    height: 30
+    scale: 0.67
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2866
+  - label: Early pulse 3
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 29.7913s;
+      flux=0.4834; normalized RMS=0.1192.
+    referenceTime: 29.7913
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 3, y: 0, z: 72}
+    height: 33
+    scale: 0.57
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3003
+  - label: Early pulse 4
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 33.4513s;
+      flux=0.6645; normalized RMS=0.1436.
+    referenceTime: 33.4513
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: -22, y: 0, z: 72}
+    height: 27
+    scale: 0.67
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 3140
+  - label: Early pulse 5
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 37.0913s;
+      flux=0.4588; normalized RMS=0.1700.
+    referenceTime: 37.0913
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 24, y: 0, z: 72}
+    height: 30
+    scale: 0.57
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3277
+  - label: Early pulse 6
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 40.7313s;
+      flux=0.5990; normalized RMS=0.2138.
+    referenceTime: 40.7313
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 1, y: 0, z: 72}
+    height: 33
+    scale: 0.67
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3414
+  - label: Early pulse 7
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 44.3713s;
+      flux=0.4707; normalized RMS=0.1726.
+    referenceTime: 44.3713
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: -18, y: 0, z: 72}
+    height: 27
+    scale: 0.57
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 3551
+  - label: Early pulse 8
+    musicalEvidence: Persistent low-frequency pulse in the first dance passage; sparse
+      selected accents, no grand-scale burst yet. | Measured spectral-flux peak 48.0013s;
+      flux=0.4646; normalized RMS=0.1868.
+    referenceTime: 48.0013
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 25, y: 0, z: 72}
+    height: 30
+    scale: 0.67
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3688
+  - label: Early phrase gold release
+    musicalEvidence: "Phrase-ending accent before reduced bass at 52\u201358 s. |
+      Measured spectral-flux peak 51.6413s; flux=0.3696; normalized RMS=0.1471."
+    referenceTime: 51.6413
+    anchor: 0
+    riseTime: 2
+    launchPosition: {x: 8, y: 0, z: 72}
+    height: 33
+    scale: 0.58
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 3825
+  - label: Breathing passage 1
+    musicalEvidence: Reduced-bass passage. Small gold willow supplies falling residual
+      embers across the upcoming short rests. | Measured spectral-flux peak 55.2713s;
+      flux=0.5690; normalized RMS=0.1069.
+    referenceTime: 55.2713
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -19, y: 0, z: 72}
+    height: 26
+    scale: 0.6
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3962
+  - label: Breathing passage 2
+    musicalEvidence: Reduced-bass passage. Small gold willow supplies falling residual
+      embers across the upcoming short rests. | Measured spectral-flux peak 58.9113s;
+      flux=0.6050; normalized RMS=0.1984.
+    referenceTime: 58.9113
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 26, y: 0, z: 72}
+    height: 26
+    scale: 0.6
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 4099
+  - label: Breathing passage 3
+    musicalEvidence: Reduced-bass passage. Small gold willow supplies falling residual
+      embers across the upcoming short rests. | Measured spectral-flux peak 61.6413s;
+      flux=0.5810; normalized RMS=0.1222.
+    referenceTime: 61.6413
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 9, y: 0, z: 72}
+    height: 37
+    scale: 0.4
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 4236
+  - label: "FIRST GRAND \u2022 full-band return"
+    musicalEvidence: "After 65.13\u201365.26 and 65.36\u201365.48 s short rests,
+      bass jumps from about 3.7 to 29.6 at 66.18\u201366.25 s; sustained full-band
+      return. | Measured spectral-flux peak 66.1813s; flux=0.4909; normalized RMS=0.1806."
+    referenceTime: 66.1813
+    anchor: 0
+    riseTime: 2.6
+    launchPosition: {x: 8, y: 0, z: 72}
+    height: 46
+    scale: 1.08
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 4373
+  - label: "Strong passage A \u2022 wide \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 67.0913s; flux=0.5357; normalized
+      RMS=0.1852.
+    referenceTime: 67.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 0.86
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 4510
+  - label: "Strong passage A \u2022 wide \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 67.0913s; flux=0.5357; normalized
+      RMS=0.1852.
+    referenceTime: 67.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 0.86
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 4647
+  - label: "Strong passage A \u2022 wide \u2022 gold middle 1"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 68.0013s; flux=0.5786; normalized
+      RMS=0.1845.
+    referenceTime: 68.0013
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -10, y: 0, z: 72}
+    height: 32
+    scale: 0.78
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 4784
+  - label: "Strong passage A \u2022 wide \u2022 willow high 1"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 69.8213s; flux=0.3895;
+      normalized RMS=0.2183.
+    referenceTime: 69.8213
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -3, y: 0, z: 82}
+    height: 45
+    scale: 0.83
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 4921
+  - label: "Strong passage A \u2022 wide \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 71.6113s; flux=0.3374; normalized
+      RMS=0.1930.
+    referenceTime: 71.6113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 0.86
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5058
+  - label: "Strong passage A \u2022 wide \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 71.6113s; flux=0.3374; normalized
+      RMS=0.1930.
+    referenceTime: 71.6113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 0.86
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5195
+  - label: "Strong passage A \u2022 wide \u2022 gold middle 2"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 73.4513s; flux=0.4600; normalized
+      RMS=0.2048.
+    referenceTime: 73.4513
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 19, y: 0, z: 72}
+    height: 32
+    scale: 0.78
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 5332
+  - label: "Strong passage A \u2022 wide \u2022 willow high 2"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 75.2713s; flux=0.5577;
+      normalized RMS=0.1768.
+    referenceTime: 75.2713
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 19, y: 0, z: 82}
+    height: 45
+    scale: 0.83
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 5469
+  - label: "Strong passage A \u2022 wide \u2022 red fan 3"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 77.0513s; flux=0.4351; normalized
+      RMS=0.1690.
+    referenceTime: 77.0513
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 0.86
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5606
+  - label: "Strong passage A \u2022 wide \u2022 red fan 3"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 77.0513s; flux=0.4351; normalized
+      RMS=0.1690.
+    referenceTime: 77.0513
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 0.86
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5743
+  - label: Middle red conversation 1
+    musicalEvidence: Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 80.7213s; flux=1.0780; normalized RMS=0.0992.
+    referenceTime: 80.7213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -23, y: 0, z: 72}
+    height: 27
+    scale: 0.65
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 5880
+  - label: Middle red conversation 2
+    musicalEvidence: Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 84.3613s; flux=0.4793; normalized RMS=0.1691.
+    referenceTime: 84.3613
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 28, y: 0, z: 72}
+    height: 28
+    scale: 0.69
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 6017
+  - label: Middle red conversation 3
+    musicalEvidence: Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 87.9813s; flux=0.6455; normalized RMS=0.1260.
+    referenceTime: 87.9813
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -23, y: 0, z: 72}
+    height: 29
+    scale: 0.73
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 6154
+  - label: Middle red conversation 4
+    musicalEvidence: Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 91.6413s; flux=0.5808; normalized RMS=0.1656.
+    referenceTime: 91.6413
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 28, y: 0, z: 72}
+    height: 30
+    scale: 0.77
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 6291
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 95.2713s; flux=0.7879; normalized
+      RMS=0.2086.
+    referenceTime: 95.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 6428
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 95.2713s; flux=0.7879; normalized
+      RMS=0.2086.
+    referenceTime: 95.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 6565
+  - label: "Repeated phrase \u2022 higher \u2022 gold middle 1"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 97.0913s; flux=1.0473; normalized
+      RMS=0.1611.
+    referenceTime: 97.0913
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -10, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 6702
+  - label: "Repeated phrase \u2022 higher \u2022 willow high 1"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 98.8313s; flux=0.4376;
+      normalized RMS=0.1396.
+    referenceTime: 98.8313
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -3, y: 0, z: 82}
+    height: 54
+    scale: 1.02
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 6839
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 100.7313s; flux=0.2994; normalized
+      RMS=0.1898.
+    referenceTime: 100.7313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 6976
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 100.7313s; flux=0.2994; normalized
+      RMS=0.1898.
+    referenceTime: 100.7313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 7113
+  - label: "Repeated phrase \u2022 higher \u2022 gold middle 2"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 102.6313s; flux=0.3339; normalized
+      RMS=0.1921.
+    referenceTime: 102.6313
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 19, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 7250
+  - label: "Repeated phrase \u2022 higher \u2022 willow high 2"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 104.3513s; flux=0.7646;
+      normalized RMS=0.1804.
+    referenceTime: 104.3513
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 19, y: 0, z: 82}
+    height: 54
+    scale: 1.02
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 7387
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 3"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 106.2013s; flux=0.4034; normalized
+      RMS=0.2402.
+    referenceTime: 106.2013
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 7524
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 3"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 106.2013s; flux=0.4034; normalized
+      RMS=0.2402.
+    referenceTime: 106.2013
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 7661
+  - label: "Repeated phrase \u2022 higher \u2022 gold middle 3"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 108.0013s; flux=0.4513; normalized
+      RMS=0.2009.
+    referenceTime: 108.0013
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 5, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 7798
+  - label: Transition reply 1
+    musicalEvidence: Short attacks during lower-energy transition; space between
+      shells is preserved. | Measured spectral-flux peak 111.7513s; flux=0.4692;
+      normalized RMS=0.0730.
+    referenceTime: 111.7513
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -24, y: 0, z: 72}
+    height: 26
+    scale: 0.67
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 7935
+  - label: Transition reply 2
+    musicalEvidence: Short attacks during lower-energy transition; space between
+      shells is preserved. | Measured spectral-flux peak 113.4113s; flux=0.5089;
+      normalized RMS=0.1734.
+    referenceTime: 113.4113
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 30, y: 0, z: 72}
+    height: 26
+    scale: 0.67
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 8072
+  - label: Transition reply 3
+    musicalEvidence: Short attacks during lower-energy transition; space between
+      shells is preserved. | Measured spectral-flux peak 115.7213s; flux=1.2006;
+      normalized RMS=0.0994.
+    referenceTime: 115.7213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 6, y: 0, z: 72}
+    height: 26
+    scale: 0.67
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 8209
+  - label: "Second return \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 117.0913s; flux=0.3716; normalized
+      RMS=0.1542.
+    referenceTime: 117.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 8346
+  - label: "Second return \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 117.0913s; flux=0.3716; normalized
+      RMS=0.1542.
+    referenceTime: 117.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 8483
+  - label: "Second return \u2022 gold middle 1"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 118.8313s; flux=0.3210; normalized
+      RMS=0.1839.
+    referenceTime: 118.8313
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -10, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 8620
+  - label: "Second return \u2022 willow high 1"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 120.6613s; flux=0.5434;
+      normalized RMS=0.1330.
+    referenceTime: 120.6613
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -3, y: 0, z: 82}
+    height: 54
+    scale: 1.02
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 8757
+  - label: "Second return \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 122.5313s; flux=0.5226; normalized
+      RMS=0.1527.
+    referenceTime: 122.5313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 8894
+  - label: "Second return \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 122.5313s; flux=0.5226; normalized
+      RMS=0.1527.
+    referenceTime: 122.5313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 9031
+  - label: "Breakdown \u2022 long gold decay"
+    musicalEvidence: "High-frequency density drops around 124\u2013138 s; one gold
+      willow fades into the breakdown. | Measured spectral-flux peak 124.3313s; flux=0.2403;
+      normalized RMS=0.1713."
+    referenceTime: 124.3313
+    anchor: 0
+    riseTime: 2.7
+    launchPosition: {x: 9, y: 0, z: 72}
+    height: 47
+    scale: 0.67
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 9168
+  - label: Rebuild 1
+    musicalEvidence: Sparse accents in rebuilding texture; gold and red only. | Measured
+      spectral-flux peak 131.6013s; flux=0.5295; normalized RMS=0.0648.
+    referenceTime: 131.6013
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: -16, y: 0, z: 72}
+    height: 31
+    scale: 0.55
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9305
+  - label: Rebuild 2
+    musicalEvidence: Sparse accents in rebuilding texture; gold and red only. | Measured
+      spectral-flux peak 136.1713s; flux=0.5438; normalized RMS=0.0935.
+    referenceTime: 136.1713
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 17, y: 0, z: 72}
+    height: 33
+    scale: 0.585
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 9442
+  - label: Rebuild 3
+    musicalEvidence: Sparse accents in rebuilding texture; gold and red only. | Measured
+      spectral-flux peak 140.6913s; flux=0.2544; normalized RMS=0.1834.
+    referenceTime: 140.6913
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 27, y: 0, z: 72}
+    height: 35
+    scale: 0.62
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9579
+  - label: Rebuild 4
+    musicalEvidence: Sparse accents in rebuilding texture; gold and red only. | Measured
+      spectral-flux peak 144.3613s; flux=0.5839; normalized RMS=0.1495.
+    referenceTime: 144.3613
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: -22, y: 0, z: 72}
+    height: 31
+    scale: 0.655
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9716
+  - label: Rebuild 5
+    musicalEvidence: Sparse accents in rebuilding texture; gold and red only. | Measured
+      spectral-flux peak 148.0013s; flux=0.3328; normalized RMS=0.1742.
+    referenceTime: 148.0013
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 6, y: 0, z: 72}
+    height: 33
+    scale: 0.69
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 9853
+  - label: Rebuild 6
+    musicalEvidence: Sparse accents in rebuilding texture; gold and red only. | Measured
+      spectral-flux peak 151.6113s; flux=0.3755; normalized RMS=0.1130.
+    referenceTime: 151.6113
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 28, y: 0, z: 72}
+    height: 35
+    scale: 0.725
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9990
+  - label: "Final strong repeat \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 155.2713s; flux=0.4762; normalized
+      RMS=0.1756.
+    referenceTime: 155.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10127
+  - label: "Final strong repeat \u2022 red fan 1"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 155.2713s; flux=0.4762; normalized
+      RMS=0.1756.
+    referenceTime: 155.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10264
+  - label: "Final strong repeat \u2022 gold middle 1"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 157.0913s; flux=0.6267; normalized
+      RMS=0.1789.
+    referenceTime: 157.0913
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -10, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 10401
+  - label: "Final strong repeat \u2022 willow high 1"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 158.9113s; flux=0.3630;
+      normalized RMS=0.1941.
+    referenceTime: 158.9113
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -3, y: 0, z: 82}
+    height: 54
+    scale: 1.02
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 10538
+  - label: "Final strong repeat \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 160.7113s; flux=0.3496; normalized
+      RMS=0.1938.
+    referenceTime: 160.7113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10675
+  - label: "Final strong repeat \u2022 red fan 2"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 160.7113s; flux=0.3496; normalized
+      RMS=0.1938.
+    referenceTime: 160.7113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10812
+  - label: "Final strong repeat \u2022 gold middle 2"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 162.5413s; flux=0.4217; normalized
+      RMS=0.2023.
+    referenceTime: 162.5413
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 19, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 10949
+  - label: "Final strong repeat \u2022 willow high 2"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 164.3613s; flux=0.5278;
+      normalized RMS=0.1749.
+    referenceTime: 164.3613
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 19, y: 0, z: 82}
+    height: 54
+    scale: 1.02
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 11086
+  - label: "Final strong repeat \u2022 red fan 3"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 166.1813s; flux=0.5014; normalized
+      RMS=0.2055.
+    referenceTime: 166.1813
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -26, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 11223
+  - label: "Final strong repeat \u2022 red fan 3"
+    musicalEvidence: Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 166.1813s; flux=0.5014; normalized
+      RMS=0.2055.
+    referenceTime: 166.1813
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 31, y: 0, z: 68}
+    height: 0
+    scale: 1.02
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 11360
+  - label: "Final strong repeat \u2022 gold middle 3"
+    musicalEvidence: Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 168.0013s; flux=0.4691; normalized
+      RMS=0.1881.
+    referenceTime: 168.0013
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 5, y: 0, z: 72}
+    height: 39
+    scale: 0.94
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 11497
+  - label: "Final strong repeat \u2022 willow high 3"
+    musicalEvidence: High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 169.9313s; flux=0.2676;
+      normalized RMS=0.2277.
+    referenceTime: 169.9313
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 7, y: 0, z: 82}
+    height: 54
+    scale: 1.02
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 11634
+  - label: Final repeat release
+    musicalEvidence: End of the sustained repeated section; gold decay precedes the
+      last density lift. | Measured spectral-flux peak 171.1813s; flux=0.8280; normalized
+      RMS=0.1805.
+    referenceTime: 171.1813
+    anchor: 0
+    riseTime: 2.7
+    launchPosition: {x: 9, y: 0, z: 72}
+    height: 54
+    scale: 0.9
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 11771
+  - label: "Finale \u2022 blue punctuation 1"
+    musicalEvidence: "Final high-frequency/percussive density lift (174\u2013185
+      s); only these three cues use thin blue comets. | Measured spectral-flux peak
+      173.9113s; flux=1.2071; normalized RMS=0.1348."
+    referenceTime: 173.9113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -18, y: 0, z: 75}
+    height: 0
+    scale: 0.92
+    prefab: {fileID: 8096900534967855636, guid: 53df332923edfb44f937112d507901a0, type: 3}
+    seed: 11908
+  - label: Finale gold 1
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 175.7313s; flux=0.7372; normalized RMS=0.1530.'
+    referenceTime: 175.7313
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: -8, y: 0, z: 78}
+    height: 42
+    scale: 0.92
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12319
+  - label: "Finale \u2022 blue punctuation 2"
+    musicalEvidence: "Final high-frequency/percussive density lift (174\u2013185
+      s); only these three cues use thin blue comets. | Measured spectral-flux peak
+      177.5913s; flux=0.2617; normalized RMS=0.2582."
+    referenceTime: 177.5913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 22, y: 0, z: 75}
+    height: 0
+    scale: 0.92
+    prefab: {fileID: 8096900534967855636, guid: 53df332923edfb44f937112d507901a0, type: 3}
+    seed: 12045
+  - label: Finale gold 2
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 179.4213s; flux=0.2445; normalized RMS=0.2244.'
+    referenceTime: 179.4213
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: 22, y: 0, z: 78}
+    height: 46
+    scale: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12456
+  - label: "Finale \u2022 blue punctuation 3"
+    musicalEvidence: "Final high-frequency/percussive density lift (174\u2013185
+      s); only these three cues use thin blue comets. | Measured spectral-flux peak
+      181.1413s; flux=0.3653; normalized RMS=0.1363."
+    referenceTime: 181.1413
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 4, y: 0, z: 75}
+    height: 0
+    scale: 0.92
+    prefab: {fileID: 8096900534967855636, guid: 53df332923edfb44f937112d507901a0, type: 3}
+    seed: 12182
+  - label: Finale gold 3
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 183.0113s; flux=0.2938; normalized RMS=0.2014.'
+    referenceTime: 183.0113
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: 7, y: 0, z: 78}
+    height: 42
+    scale: 0.92
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12593
+  - label: Finale gold 4
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 185.5013s; flux=0.4763; normalized RMS=0.1805.'
+    referenceTime: 185.5013
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: 9, y: 0, z: 78}
+    height: 46
+    scale: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12730
+  - label: "Finale \u2022 curtain of gold"
+    musicalEvidence: Penultimate strong broadband accent; slow gold tails continue
+      beneath the final hit. | Measured spectral-flux peak 186.6413s; flux=0.8176;
+      normalized RMS=0.1573.
+    referenceTime: 186.6413
+    anchor: 0
+    riseTime: 2.9
+    launchPosition: {x: 9, y: 0, z: 83}
+    height: 52
+    scale: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 12867
+  - label: "FINAL \u2022 central gold"
+    musicalEvidence: Last clear broadband attack at 188.021 s, followed by final
+      near-silence from about 188.24 s; synchronized first flashes. | Measured spectral-flux
+      peak 188.0213s; flux=0.6827; normalized RMS=0.1824.
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 8, y: 0, z: 80}
+    height: 47
+    scale: 1.32
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 13004
+  - label: "FINAL \u2022 left red"
+    musicalEvidence: Last clear broadband attack at 188.021 s, followed by final
+      near-silence from about 188.24 s; synchronized first flashes. | Measured spectral-flux
+      peak 188.0213s; flux=0.6827; normalized RMS=0.1824.
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -23, y: 0, z: 80}
+    height: 32
+    scale: 1.02
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 13141
+  - label: "FINAL \u2022 right red"
+    musicalEvidence: Last clear broadband attack at 188.021 s, followed by final
+      near-silence from about 188.24 s; synchronized first flashes. | Measured spectral-flux
+      peak 188.0213s; flux=0.6827; normalized RMS=0.1824.
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 34, y: 0, z: 80}
+    height: 32
+    scale: 1.02
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 13278

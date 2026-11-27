@@ -1,0 +1,16 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+Build/
+.vs/
+*.csproj
+*.sln
+Analysis/*.npz
+Analysis/ado_show_decoded.wav
+Verification/ParadeValidationProject/
+Verification/WideValidationProject/
+# Local source copies, render logs and full project backups.
+References/
+Verification/

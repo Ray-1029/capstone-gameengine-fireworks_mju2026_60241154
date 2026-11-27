@@ -1,0 +1,2108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36364a26301968243bf82663e294f2b1, type: 3}
+  m_Name: ShowTimeline
+  m_EditorClassIdentifier: Assembly-CSharp::LanternFestival.FireworkShowData
+  music: {fileID: 8300000, guid: d488a785e74b83c40953b1cf0407b8da, type: 3}
+  preRoll: 3.2
+  tailAfterAudio: 9
+  analysisNotes: "Source ado_show_.m4a, decoded duration 189.639833 s, 48000 Hz stereo.
+    Time zero is file start. Measured spectral flux / RMS / band energy, not title/version
+    metadata. Onset resolution 10 ms; allow about \xB125 ms perceptual adjustment.
+    No long leading silence. Playback WAV uses fixed 18x gain (25.105 dB), no trimming/stretching/compression.
+    First grand burst 66.1813 s; last accent 188.0213 s. Near-silent tail about 188.24
+    s to file end. Blue only at 173.9113, 177.5913, 181.1413 s. Three short attacks
+    at 18.9113, 19.1413, 19.3413 s. All launch times are derived from the editable
+    anchor and rise time. Parade revision: 130 cues, 9 prefab types. Measured main
+    cue anchors preserved; multibreak child flashes use an explicit relative delay.
+    No extra blue outside the finale. Wide/natural revision: 163 cues, 13 types;
+    21 low-intensity calm cues and 12 outer-sky accents. Pattern shells use jittered
+    ignition, individual drag/burnout and broken short trails. Main source-file anchors
+    unchanged."
+  cues:
+  - label: "Opening \u2022 one small gold above the roof"
+    musicalEvidence: First prominent broadband attack with simultaneous low-frequency
+      rise; no long leading silence. | Measured spectral-flux peak 0.5713s; flux=0.5579;
+      normalized RMS=0.1479.
+    referenceTime: 0.5713
+    anchor: 0
+    riseTime: 1.45
+    launchPosition: {x: 13, y: 0, z: 72}
+    height: 27
+    scale: 0.38
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 811
+  - label: Opening red reply 1
+    musicalEvidence: 'Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 4.1113s; flux=0.3543; normalized RMS=0.1346.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 4.1113
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -82.417595, y: -0.0003414154, z: 72.000114}
+    height: 24
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 948
+  - label: Opening red reply 2
+    musicalEvidence: 'Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 4.3313s; flux=0.6329; normalized RMS=0.0961.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 4.3313
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 76.38704, y: -0.0003414154, z: 72.000114}
+    height: 24
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1085
+  - label: Opening red reply 3
+    musicalEvidence: 'Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 5.2513s; flux=0.6406; normalized RMS=0.0762.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 5.2513
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -82.417595, y: -0.0003414154, z: 72.000114}
+    height: 24
+    scale: 0.64
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1222
+  - label: Opening red reply 4
+    musicalEvidence: 'Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 5.3913s; flux=0.5554; normalized RMS=0.0756.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 5.3913
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 76.38704, y: -0.0003414154, z: 72.000114}
+    height: 24
+    scale: 0.64
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1359
+  - label: Opening red reply 5
+    musicalEvidence: 'Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 6.7813s; flux=0.2987; normalized RMS=0.1160.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 6.7813
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -82.417595, y: -0.0003414154, z: 72.000114}
+    height: 24
+    scale: 0.64
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1496
+  - label: Opening red reply 6
+    musicalEvidence: 'Separated short transient phrase; alternate left and right.
+      | Measured spectral-flux peak 7.1613s; flux=0.2867; normalized RMS=0.1183.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 7.1613
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 76.38704, y: -0.0003414154, z: 72.000114}
+    height: 24
+    scale: 0.64
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1633
+  - label: "CALM \u2022 FallingLeaves 01"
+    musicalEvidence: Measured source attack 8.9113s, spectral flux 0.4149; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 8.9113
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.94093, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 19158
+  - label: Opening gold punctuation
+    musicalEvidence: 'Opening phrase thickens; still below the scale of the first
+      grand explosion. | Measured spectral-flux peak 11.2013s; flux=0.3229; normalized
+      RMS=0.1907. | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 11.2013
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: -22.648144, y: -0.00025749207, z: 72.000084}
+    height: 32
+    scale: 0.5
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 1770
+  - label: "CALM \u2022 Palm 02"
+    musicalEvidence: Measured source attack 15.7413s, spectral flux 0.5758; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 15.7413
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 83.437546, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 19315
+  - label: "CALM \u2022 Peony 03"
+    musicalEvidence: Measured source attack 17.0813s, spectral flux 0.7070; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 17.0813
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -33.30168, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 19472
+  - label: "Triple \u2022 left"
+    musicalEvidence: 'Three consecutive strong attacks at 18.911 / 19.141 / 19.341
+      s (230 / 200 ms apart). | Measured spectral-flux peak 18.9113s; flux=0.8848;
+      normalized RMS=0.1405. | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 18.9113
+    anchor: 0
+    riseTime: 1.35
+    launchPosition: {x: -82.168144, y: -0.00023651123, z: 72.00007}
+    height: 23
+    scale: 0.6
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 1907
+  - label: "Triple \u2022 right"
+    musicalEvidence: 'Three consecutive strong attacks at 18.911 / 19.141 / 19.341
+      s (230 / 200 ms apart). | Measured spectral-flux peak 19.1413s; flux=0.6683;
+      normalized RMS=0.1403. | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 19.1413
+    anchor: 0
+    riseTime: 1.35
+    launchPosition: {x: 76.155846, y: -0.00023651123, z: 72.00007}
+    height: 23
+    scale: 0.6
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2044
+  - label: "Triple \u2022 larger centre"
+    musicalEvidence: 'Three consecutive strong attacks at 18.911 / 19.141 / 19.341
+      s (230 / 200 ms apart). | Measured spectral-flux peak 19.3413s; flux=0.6066;
+      normalized RMS=0.1379. | Wide revision: projected burst centre at screen X=0.54.'
+    referenceTime: 19.3413
+    anchor: 0
+    riseTime: 1.35
+    launchPosition: {x: 8.113855, y: -0.00029182434, z: 72.00009}
+    height: 27
+    scale: 0.76
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2181
+  - label: Short phrase variation 1
+    musicalEvidence: 'Second short transient phrase; position and size vary from
+      the first response. | Measured spectral-flux peak 20.2713s; flux=0.8947; normalized
+      RMS=0.1302. | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 20.2713
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 76.618355, y: -0.00039291382, z: 72.00012}
+    height: 25
+    scale: 0.66
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2318
+  - label: Short phrase variation 2
+    musicalEvidence: 'Second short transient phrase; position and size vary from
+      the first response. | Measured spectral-flux peak 21.0713s; flux=0.6891; normalized
+      RMS=0.1676. | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 21.0713
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: -82.917015, y: -0.00041770935, z: 72.000145}
+    height: 26
+    scale: 0.66
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2455
+  - label: Short phrase variation 3
+    musicalEvidence: 'Second short transient phrase; position and size vary from
+      the first response. | Measured spectral-flux peak 21.4113s; flux=0.5266; normalized
+      RMS=0.1618. | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 21.4113
+    anchor: 0
+    riseTime: 1.4
+    launchPosition: {x: 77.08157, y: -0.00029182434, z: 72.00009}
+    height: 27
+    scale: 0.8
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2592
+  - label: Early pulse 1
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 22.5513s; flux=0.3869; normalized RMS=0.1975. | Wide revision: projected
+      burst centre at screen X=0.70.'
+    referenceTime: 22.5513
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 40.56925, y: -0.00029182434, z: 72.00009}
+    height: 27
+    scale: 0.57
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 2729
+  - label: "PARADE \u2022 Glitter 15"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 23.2313s;
+      spectral flux 0.9126.  | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 23.2313
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -88.27755, y: -0.00024032593, z: 78.00008}
+    height: 29
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 9695
+  - label: Early pulse 2
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 26.1813s; flux=0.5939; normalized RMS=0.1394. | Wide revision: projected
+      burst centre at screen X=0.88.'
+    referenceTime: 26.1813
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 77.77651, y: 0, z: 72.00004}
+    height: 30
+    scale: 0.67
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 2866
+  - label: "PARADE \u2022 Glitter 16"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 26.1813s;
+      spectral flux 0.5939.  | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 26.1813
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 81.81822, y: -0.00024032593, z: 78.00008}
+    height: 29
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 9868
+  - label: Early pulse 3
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 29.7913s; flux=0.4834; normalized RMS=0.1192. | Wide revision: projected
+      burst centre at screen X=0.88.'
+    referenceTime: 29.7913
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 78.47046, y: -0.00033950806, z: 72.00011}
+    height: 33
+    scale: 0.57
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3003
+  - label: "PARADE \u2022 Star 01"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 29.7913s;
+      spectral flux 0.4834.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 29.7913
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -36.91348, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.48
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 7273
+  - label: Early pulse 4
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 33.4513s; flux=0.6645; normalized RMS=0.1436. | Wide revision: projected
+      burst centre at screen X=0.39.'
+    referenceTime: 33.4513
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: -22.313091, y: -0.00029182434, z: 72.00009}
+    height: 27
+    scale: 0.67
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 3140
+  - label: "PARADE \u2022 Glitter 17"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 33.4513s;
+      spectral flux 0.6645.  | Wide revision: projected burst centre at screen X=0.34.'
+    referenceTime: 33.4513
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -34.44978, y: -0.00024032593, z: 78.00008}
+    height: 29
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 10041
+  - label: Early pulse 5
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 37.0913s; flux=0.4588; normalized RMS=0.1700. | Wide revision: projected
+      burst centre at screen X=0.88.'
+    referenceTime: 37.0913
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 77.77651, y: 0, z: 72.00004}
+    height: 30
+    scale: 0.57
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3277
+  - label: Early pulse 6
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 40.7313s; flux=0.5990; normalized RMS=0.2138. | Wide revision: projected
+      burst centre at screen X=0.88.'
+    referenceTime: 40.7313
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 78.47046, y: -0.00033950806, z: 72.00011}
+    height: 33
+    scale: 0.67
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3414
+  - label: "PARADE \u2022 Glitter 18"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 40.7313s;
+      spectral flux 0.5990.  | Wide revision: projected burst centre at screen X=0.91.'
+    referenceTime: 40.7313
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 88.27756, y: -0.00024032593, z: 78.00008}
+    height: 29
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 10214
+  - label: Early pulse 7
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 44.3713s; flux=0.4707; normalized RMS=0.1726. | Wide revision: projected
+      burst centre at screen X=0.70.'
+    referenceTime: 44.3713
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 40.56925, y: -0.00029182434, z: 72.00009}
+    height: 27
+    scale: 0.57
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 3551
+  - label: "PARADE \u2022 Star 02"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 44.3713s;
+      spectral flux 0.4707.  | Wide revision: projected burst centre at screen X=0.84.'
+    referenceTime: 44.3713
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 73.82696, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.48
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 7446
+  - label: Early pulse 8
+    musicalEvidence: 'Persistent low-frequency pulse in the first dance passage;
+      sparse selected accents, no grand-scale burst yet. | Measured spectral-flux
+      peak 48.0013s; flux=0.4646; normalized RMS=0.1868. | Wide revision: projected
+      burst centre at screen X=0.88.'
+    referenceTime: 48.0013
+    anchor: 0
+    riseTime: 1.8
+    launchPosition: {x: 77.77651, y: 0, z: 72.00004}
+    height: 30
+    scale: 0.67
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3688
+  - label: "PARADE \u2022 Glitter 19"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 48.0013s;
+      spectral flux 0.4646.  | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 48.0013
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -88.27755, y: -0.00024032593, z: 78.00008}
+    height: 29
+    scale: 0.55
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 10387
+  - label: Early phrase gold release
+    musicalEvidence: "Phrase-ending accent before reduced bass at 52\u201358 s. |
+      Measured spectral-flux peak 51.6413s; flux=0.3696; normalized RMS=0.1471. |
+      Wide revision: projected burst centre at screen X=0.39."
+    referenceTime: 51.6413
+    anchor: 0
+    riseTime: 2
+    launchPosition: {x: -22.715136, y: -0.00033950806, z: 72.00011}
+    height: 33
+    scale: 0.58
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 3825
+  - label: "CALM \u2022 FallingLeaves 04"
+    musicalEvidence: Measured source attack 53.4513s, spectral flux 0.6830; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 53.4513
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 86.85524, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 19629
+  - label: Breathing passage 1
+    musicalEvidence: 'Reduced-bass passage. Small gold willow supplies falling residual
+      embers across the upcoming short rests. | Measured spectral-flux peak 55.2713s;
+      flux=0.5690; normalized RMS=0.1069. | Wide revision: projected burst centre
+      at screen X=0.09.'
+    referenceTime: 55.2713
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -82.917015, y: -0.00041770935, z: 72.000145}
+    height: 26
+    scale: 0.6
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 3962
+  - label: "CALM \u2022 Palm 05"
+    musicalEvidence: Measured source attack 56.3813s, spectral flux 0.9247; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 56.3813
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.828995, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 19786
+  - label: Breathing passage 2
+    musicalEvidence: 'Reduced-bass passage. Small gold willow supplies falling residual
+      embers across the upcoming short rests. | Measured spectral-flux peak 58.9113s;
+      flux=0.6050; normalized RMS=0.1984. | Wide revision: projected burst centre
+      at screen X=0.88.'
+    referenceTime: 58.9113
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 76.84992, y: -0.00041770935, z: 72.000145}
+    height: 26
+    scale: 0.6
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 4099
+  - label: "CALM \u2022 Peony 06"
+    musicalEvidence: Measured source attack 59.8213s, spectral flux 0.4993; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 59.8213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 64.38325, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 19943
+  - label: Breathing passage 3
+    musicalEvidence: 'Reduced-bass passage. Small gold willow supplies falling residual
+      embers across the upcoming short rests. | Measured spectral-flux peak 61.6413s;
+      flux=0.5810; normalized RMS=0.1222. | Wide revision: projected burst centre
+      at screen X=0.44.'
+    referenceTime: 61.6413
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -12.536189, y: -0.00051116943, z: 72.00016}
+    height: 37
+    scale: 0.4
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 4236
+  - label: "CALM \u2022 FallingLeaves 07"
+    musicalEvidence: Measured source attack 62.5513s, spectral flux 0.5259; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 62.5513
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.94093, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 20100
+  - label: "FIRST GRAND \u2022 full-band return"
+    musicalEvidence: "After 65.13\u201365.26 and 65.36\u201365.48 s short rests,
+      bass jumps from about 3.7 to 29.6 at 66.18\u201366.25 s; sustained full-band
+      return. | Measured spectral-flux peak 66.1813s; flux=0.4909; normalized RMS=0.1806."
+    referenceTime: 66.1813
+    anchor: 0
+    riseTime: 2.6
+    launchPosition: {x: 8, y: 0, z: 72}
+    height: 54
+    scale: 1.2096001
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 4373
+  - label: "Strong passage A \u2022 wide \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 67.0913s; flux=0.5357; normalized
+      RMS=0.1852. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 67.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 0.96320003
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 4510
+  - label: "Strong passage A \u2022 wide \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 67.0913s; flux=0.5357; normalized
+      RMS=0.1852. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 67.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 0.96320003
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 4647
+  - label: "PARADE \u2022 Glitter 20"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 68.0013s;
+      spectral flux 0.5786.  | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 68.0013
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 83.20666, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 10560
+  - label: "Strong passage A \u2022 wide \u2022 gold middle 1"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 68.0013s; flux=0.5786; normalized
+      RMS=0.1845. | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 68.0013
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 42.152775, y: -0.00049591064, z: 72.00016}
+    height: 40
+    scale: 0.87359995
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 4784
+  - label: "WIDE \u2022 Peony 26"
+    musicalEvidence: Measured source attack 68.0013s, spectral flux 0.5786; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 68.0013
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 88.31621, y: -0.00022506714, z: 78.00007}
+    height: 38
+    scale: 0.75
+    brightness: 1
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 23083
+  - label: "Strong passage A \u2022 wide \u2022 willow high 1"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 69.8213s; flux=0.3895;
+      normalized RMS=0.2183. | Wide revision: projected burst centre at screen X=0.76.'
+    referenceTime: 69.8213
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 61.730045, y: -0.00035095215, z: 82.00012}
+    height: 53
+    scale: 0.89640003
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 4921
+  - label: "WIDE \u2022 Palm 22"
+    musicalEvidence: Measured source attack 69.8213s, spectral flux 0.3895; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 69.8213
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 81.677734, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.95
+    brightness: 1
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 22455
+  - label: "PARADE \u2022 MultiBreak 09"
+    musicalEvidence: "Extra parade layer on measured source-file attack 71.6113s;
+      spectral flux 0.3374. Secondary flashes are decorative offsets 1.15\u20131.54
+      s after the first flash. | Wide revision: projected burst centre at screen
+      X=0.33."
+    referenceTime: 71.6113
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.570038, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 6711570096383632612, guid: 734cf6d6c3743ab4c9b70ef3669a6dee, type: 3}
+    seed: 8657
+  - label: "Strong passage A \u2022 wide \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 71.6113s; flux=0.3374; normalized
+      RMS=0.1930. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 71.6113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 0.96320003
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5058
+  - label: "Strong passage A \u2022 wide \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 71.6113s; flux=0.3374; normalized
+      RMS=0.1930. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 71.6113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 0.96320003
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5195
+  - label: "PARADE \u2022 Star 03"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 73.4513s;
+      spectral flux 0.4600.  | Wide revision: projected burst centre at screen X=0.84.'
+    referenceTime: 73.4513
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 77.140076, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 7619
+  - label: "Strong passage A \u2022 wide \u2022 gold middle 2"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 73.4513s; flux=0.4600; normalized
+      RMS=0.2048. | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 73.4513
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -23.18403, y: -0.00049591064, z: 72.00016}
+    height: 40
+    scale: 0.87359995
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 5332
+  - label: "PARADE \u2022 Glitter 21"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 75.2713s;
+      spectral flux 0.5577.  | Wide revision: projected burst centre at screen X=0.34.'
+    referenceTime: 75.2713
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -35.034386, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 10733
+  - label: "Strong passage A \u2022 wide \u2022 willow high 2"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 75.2713s; flux=0.5577;
+      normalized RMS=0.1768. | Wide revision: projected burst centre at screen X=0.44.'
+    referenceTime: 75.2713
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -14.245395, y: -0.00035095215, z: 82.00012}
+    height: 53
+    scale: 0.89640003
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 5469
+  - label: "WIDE \u2022 Crossette 30"
+    musicalEvidence: Measured source attack 75.2713s, spectral flux 0.5577; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 75.2713
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -90.02471, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.68
+    brightness: 1
+    prefab: {fileID: 7451366809783508003, guid: 3a6b7fc78254e9c40b6de564f11f0cd8, type: 3}
+    seed: 23711
+  - label: "PARADE \u2022 DoubleRing 31"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 77.0513s;
+      spectral flux 0.4351.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 77.0513
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.466698, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 5039388528270601146, guid: 3e573b9c17eefd743898bfe95d05c6d3, type: 3}
+    seed: 12463
+  - label: "Strong passage A \u2022 wide \u2022 red fan 3"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 77.0513s; flux=0.4351; normalized
+      RMS=0.1690. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 77.0513
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 0.96320003
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5606
+  - label: "Strong passage A \u2022 wide \u2022 red fan 3"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 77.0513s; flux=0.4351; normalized
+      RMS=0.1690. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 77.0513
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 0.96320003
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 5743
+  - label: "CALM \u2022 Palm 08"
+    musicalEvidence: Measured source attack 80.7213s, spectral flux 1.0780; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 80.7213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 83.437546, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 20257
+  - label: Middle red conversation 1
+    musicalEvidence: 'Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 80.7213s; flux=1.0780; normalized RMS=0.0992.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 80.7213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -83.91676, y: 0, z: 72.00004}
+    height: 30
+    scale: 0.728
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 5880
+  - label: "CALM \u2022 Peony 09"
+    musicalEvidence: Measured source attack 82.5513s, spectral flux 0.6040; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 82.5513
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -33.30168, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 20414
+  - label: Middle red conversation 2
+    musicalEvidence: 'Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 84.3613s; flux=0.4793; normalized RMS=0.1691.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 84.3613
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 78.007706, y: -0.00022315979, z: 72.00007}
+    height: 31
+    scale: 0.7728
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 6017
+  - label: "CALM \u2022 FallingLeaves 10"
+    musicalEvidence: Measured source attack 86.1913s, spectral flux 0.4040; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 86.1913
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 86.85524, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 20571
+  - label: Middle red conversation 3
+    musicalEvidence: 'Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 87.9813s; flux=0.6455; normalized RMS=0.1260.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 87.9813
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -84.415794, y: -0.00025749207, z: 72.000084}
+    height: 32
+    scale: 0.8176
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 6154
+  - label: "CALM \u2022 Palm 11"
+    musicalEvidence: Measured source attack 90.7313s, spectral flux 0.5388; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 90.7313
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.828995, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 20728
+  - label: Middle red conversation 4
+    musicalEvidence: 'Bass texture thins; return to alternating short red shells.
+      | Measured spectral-flux peak 91.6413s; flux=0.5808; normalized RMS=0.1656.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 91.6413
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 78.47046, y: -0.00033950806, z: 72.00011}
+    height: 33
+    scale: 0.8624
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 6291
+  - label: "PARADE \u2022 Glitter 22"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 95.2713s;
+      spectral flux 0.7879.  | Wide revision: projected burst centre at screen X=0.91.'
+    referenceTime: 95.2713
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 89.77561, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 10906
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 95.2713s; flux=0.7879; normalized
+      RMS=0.2086. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 95.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 6428
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 95.2713s; flux=0.7879; normalized
+      RMS=0.2086. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 95.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 6565
+  - label: "Repeated phrase \u2022 higher \u2022 gold middle 1"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 97.0913s; flux=1.0473; normalized
+      RMS=0.1611. | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 97.0913
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 43.00544, y: -0.00065231323, z: 72.000206}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 6702
+  - label: "WIDE \u2022 Peony 27"
+    musicalEvidence: Measured source attack 97.0913s, spectral flux 1.0473; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 97.0913
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -88.56045, y: -0.00047683716, z: 78.00016}
+    height: 39
+    scale: 0.65
+    brightness: 1
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 23240
+  - label: "PARADE \u2022 Star 04"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 98.8313s;
+      spectral flux 0.4376.  | Wide revision: projected burst centre at screen X=0.84.'
+    referenceTime: 98.8313
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 77.140076, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 7792
+  - label: "Repeated phrase \u2022 higher \u2022 willow high 1"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 98.8313s; flux=0.4376;
+      normalized RMS=0.1396. | Wide revision: projected burst centre at screen X=0.76.'
+    referenceTime: 98.8313
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 63.155853, y: -0.00074386597, z: 82.000244}
+    height: 62
+    scale: 1.1016
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 6839
+  - label: "PARADE \u2022 DoubleRing 32"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 100.7313s;
+      spectral flux 0.2994.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 100.7313
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.466698, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 5039388528270601146, guid: 3e573b9c17eefd743898bfe95d05c6d3, type: 3}
+    seed: 12636
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 100.7313s; flux=0.2994; normalized
+      RMS=0.1898. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 100.7313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 6976
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 100.7313s; flux=0.2994; normalized
+      RMS=0.1898. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 100.7313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 7113
+  - label: "Repeated phrase \u2022 higher \u2022 gold middle 2"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 102.6313s; flux=0.3339; normalized
+      RMS=0.1921. | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 102.6313
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -8.601108, y: -0.0011978149, z: 72.00038}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 7250
+  - label: "PARADE \u2022 MultiBreak 10"
+    musicalEvidence: "Extra parade layer on measured source-file attack 104.3513s;
+      spectral flux 0.7646. Secondary flashes are decorative offsets 1.15\u20131.54
+      s after the first flash. | Wide revision: projected burst centre at screen
+      X=0.84."
+    referenceTime: 104.3513
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 78.17526, y: -0.0008430481, z: 78.00028}
+    height: 53
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 6711570096383632612, guid: 734cf6d6c3743ab4c9b70ef3669a6dee, type: 3}
+    seed: 8830
+  - label: "Repeated phrase \u2022 higher \u2022 willow high 2"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 104.3513s; flux=0.7646;
+      normalized RMS=0.1804. | Wide revision: projected burst centre at screen X=0.44.'
+    referenceTime: 104.3513
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -14.574428, y: -0.00074386597, z: 82.000244}
+    height: 62
+    scale: 1.1016
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 7387
+  - label: "WIDE \u2022 Palm 23"
+    musicalEvidence: Measured source attack 104.3513s, spectral flux 0.7646; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 104.3513
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -36.203953, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.95
+    brightness: 1
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 22612
+  - label: "WIDE \u2022 Crossette 31"
+    musicalEvidence: Measured source attack 105.2613s, spectral flux 0.4770; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 105.2613
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 85.520966, y: -0.00063705444, z: 78.00021}
+    height: 45
+    scale: 0.83
+    brightness: 1
+    prefab: {fileID: 7451366809783508003, guid: 3a6b7fc78254e9c40b6de564f11f0cd8, type: 3}
+    seed: 23868
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 3"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 106.2013s; flux=0.4034; normalized
+      RMS=0.2402. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 106.2013
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 7524
+  - label: "Repeated phrase \u2022 higher \u2022 red fan 3"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 106.2013s; flux=0.4034; normalized
+      RMS=0.2402. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 106.2013
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 7661
+  - label: "PARADE \u2022 Glitter 23"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 108.0013s;
+      spectral flux 0.4513.  | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 108.0013
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -89.775604, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 11079
+  - label: "Repeated phrase \u2022 higher \u2022 gold middle 3"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 108.0013s; flux=0.4513; normalized
+      RMS=0.2009. | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 108.0013
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 43.00544, y: -0.00065231323, z: 72.000206}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 7798
+  - label: "CALM \u2022 Peony 12"
+    musicalEvidence: Measured source attack 110.6013s, spectral flux 0.8214; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 110.6013
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 64.38325, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 20885
+  - label: Transition reply 1
+    musicalEvidence: 'Short attacks during lower-energy transition; space between
+      shells is preserved. | Measured spectral-flux peak 111.7513s; flux=0.4692;
+      normalized RMS=0.0730. | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 111.7513
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -83.66631, y: -0.0004196167, z: 72.00014}
+    height: 29
+    scale: 0.7504
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 7935
+  - label: "CALM \u2022 FallingLeaves 13"
+    musicalEvidence: Measured source attack 112.4513s, spectral flux 0.4573; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 112.4513
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.94093, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 21042
+  - label: Transition reply 2
+    musicalEvidence: 'Short attacks during lower-energy transition; space between
+      shells is preserved. | Measured spectral-flux peak 113.4113s; flux=0.5089;
+      normalized RMS=0.1734. | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 113.4113
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 77.54439, y: -0.0004196167, z: 72.00014}
+    height: 29
+    scale: 0.7504
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 8072
+  - label: "CALM \u2022 Palm 14"
+    musicalEvidence: Measured source attack 114.8013s, spectral flux 0.3261; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 114.8013
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 83.437546, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 21199
+  - label: Transition reply 3
+    musicalEvidence: 'Short attacks during lower-energy transition; space between
+      shells is preserved. | Measured spectral-flux peak 115.7213s; flux=1.2006;
+      normalized RMS=0.0994. | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 115.7213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 77.54439, y: -0.0004196167, z: 72.00014}
+    height: 29
+    scale: 0.7504
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 8209
+  - label: "PARADE \u2022 Glitter 24"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 117.0913s;
+      spectral flux 0.3716.  | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 117.0913
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 83.20666, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 11252
+  - label: "Second return \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 117.0913s; flux=0.3716; normalized
+      RMS=0.1542. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 117.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 8346
+  - label: "Second return \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 117.0913s; flux=0.3716; normalized
+      RMS=0.1542. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 117.0913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 8483
+  - label: "PARADE \u2022 Star 05"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 118.8313s;
+      spectral flux 0.3210.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 118.8313
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.570038, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 7965
+  - label: "Second return \u2022 gold middle 1"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 118.8313s; flux=0.3210; normalized
+      RMS=0.1839. | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 118.8313
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -8.601108, y: -0.0011978149, z: 72.00038}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 8620
+  - label: "PARADE \u2022 MultiBreak 11"
+    musicalEvidence: "Extra parade layer on measured source-file attack 120.6613s;
+      spectral flux 0.5434. Secondary flashes are decorative offsets 1.15\u20131.54
+      s after the first flash. | Wide revision: projected burst centre at screen
+      X=0.84."
+    referenceTime: 120.6613
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 77.140076, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 6711570096383632612, guid: 734cf6d6c3743ab4c9b70ef3669a6dee, type: 3}
+    seed: 9003
+  - label: "Second return \u2022 willow high 1"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 120.6613s; flux=0.5434;
+      normalized RMS=0.1330. | Wide revision: projected burst centre at screen X=0.76.'
+    referenceTime: 120.6613
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 63.155853, y: -0.00074386597, z: 82.000244}
+    height: 62
+    scale: 1.1016
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 8757
+  - label: "WIDE \u2022 Crossette 32"
+    musicalEvidence: Measured source attack 121.6113s, spectral flux 0.6238; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 121.6113
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -90.02471, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.65
+    brightness: 1
+    prefab: {fileID: 7451366809783508003, guid: 3a6b7fc78254e9c40b6de564f11f0cd8, type: 3}
+    seed: 24025
+  - label: "PARADE \u2022 Glitter 25"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 122.5313s;
+      spectral flux 0.5226.  | Wide revision: projected burst centre at screen X=0.34.'
+    referenceTime: 122.5313
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -35.034386, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 11425
+  - label: "Second return \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 122.5313s; flux=0.5226; normalized
+      RMS=0.1527. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 122.5313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 8894
+  - label: "Second return \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 122.5313s; flux=0.5226; normalized
+      RMS=0.1527. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 122.5313
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 9031
+  - label: "Breakdown \u2022 long gold decay"
+    musicalEvidence: "High-frequency density drops around 124\u2013138 s; one gold
+      willow fades into the breakdown. | Measured spectral-flux peak 124.3313s; flux=0.2403;
+      normalized RMS=0.1713. | Wide revision: projected burst centre at screen X=0.44."
+    referenceTime: 124.3313
+    anchor: 0
+    riseTime: 2.7
+    launchPosition: {x: -13.193991, y: -0.0006980896, z: 72.00023}
+    height: 55
+    scale: 0.72360003
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 9168
+  - label: "CALM \u2022 Peony 15"
+    musicalEvidence: Measured source attack 126.1813s, spectral flux 0.7457; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 126.1813
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -33.30168, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 21356
+  - label: "CALM \u2022 FallingLeaves 16"
+    musicalEvidence: Measured source attack 129.0413s, spectral flux 0.2858; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 129.0413
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 86.85524, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 21513
+  - label: "CALM \u2022 Palm 17"
+    musicalEvidence: Measured source attack 131.6013s, spectral flux 0.5295; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 131.6013
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.828995, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 21670
+  - label: Rebuild 1
+    musicalEvidence: 'Sparse accents in rebuilding texture; gold and red only. |
+      Measured spectral-flux peak 131.6013s; flux=0.5295; normalized RMS=0.0648.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 131.6013
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: -84.91526, y: -0.00033950806, z: 72.0001}
+    height: 34
+    scale: 0.616
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9305
+  - label: "CALM \u2022 Peony 18"
+    musicalEvidence: Measured source attack 135.2813s, spectral flux 0.2626; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 135.2813
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 64.38325, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 21827
+  - label: Rebuild 2
+    musicalEvidence: 'Sparse accents in rebuilding texture; gold and red only. |
+      Measured spectral-flux peak 136.1713s; flux=0.5438; normalized RMS=0.0935.
+      | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 136.1713
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 42.27483, y: -0.00024795532, z: 72.00008}
+    height: 41
+    scale: 0.6552
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 9442
+  - label: "CALM \u2022 FallingLeaves 19"
+    musicalEvidence: Measured source attack 138.4313s, spectral flux 0.2146; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 138.4313
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -87.94093, y: -0.00032615662, z: 78.00011}
+    height: 32
+    scale: 0.7
+    brightness: 0.65
+    prefab: {fileID: 363473621116786690, guid: f34d0c0cc6289dd4e861dbac0459ad79, type: 3}
+    seed: 21984
+  - label: Rebuild 3
+    musicalEvidence: 'Sparse accents in rebuilding texture; gold and red only. |
+      Measured spectral-flux peak 140.6913s; flux=0.2544; normalized RMS=0.1834.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 140.6913
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 79.62767, y: -0.00037765503, z: 72.000114}
+    height: 38
+    scale: 0.6944
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9579
+  - label: "CALM \u2022 Palm 20"
+    musicalEvidence: Measured source attack 142.0913s, spectral flux 0.8067; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 142.0913
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: 83.437546, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.57
+    brightness: 0.48
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 22141
+  - label: "PARADE \u2022 Star 06"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 144.3613s;
+      spectral flux 0.5839.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 144.3613
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.570038, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 8138
+  - label: Rebuild 4
+    musicalEvidence: 'Sparse accents in rebuilding texture; gold and red only. |
+      Measured spectral-flux peak 144.3613s; flux=0.5839; normalized RMS=0.1495.
+      | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 144.3613
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: -84.91526, y: -0.00033950806, z: 72.0001}
+    height: 34
+    scale: 0.73359996
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9716
+  - label: "PARADE \u2022 DoubleRing 33"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 148.0013s;
+      spectral flux 0.3328.  | Wide revision: projected burst centre at screen X=0.84.'
+    referenceTime: 148.0013
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 76.933395, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 5039388528270601146, guid: 3e573b9c17eefd743898bfe95d05c6d3, type: 3}
+    seed: 12809
+  - label: Rebuild 5
+    musicalEvidence: 'Sparse accents in rebuilding texture; gold and red only. |
+      Measured spectral-flux peak 148.0013s; flux=0.3328; normalized RMS=0.1742.
+      | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 148.0013
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: -23.25116, y: -0.00024795532, z: 72.00008}
+    height: 41
+    scale: 0.7728
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 9853
+  - label: "CALM \u2022 Peony 21"
+    musicalEvidence: Measured source attack 150.5213s, spectral flux 0.4766; restrained
+      small embers across a lower-energy phrase, keeping the large returns distinct.
+    referenceTime: 150.5213
+    anchor: 0
+    riseTime: 1.6
+    launchPosition: {x: -33.30168, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.42
+    brightness: 0.48
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 22298
+  - label: Rebuild 6
+    musicalEvidence: 'Sparse accents in rebuilding texture; gold and red only. |
+      Measured spectral-flux peak 151.6113s; flux=0.3755; normalized RMS=0.1130.
+      | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 151.6113
+    anchor: 0
+    riseTime: 1.9
+    launchPosition: {x: 79.62767, y: -0.00037765503, z: 72.000114}
+    height: 38
+    scale: 0.81200004
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 9990
+  - label: "Final strong repeat \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 155.2713s; flux=0.4762; normalized
+      RMS=0.1756. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 155.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10127
+  - label: "Final strong repeat \u2022 red fan 1"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 155.2713s; flux=0.4762; normalized
+      RMS=0.1756. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 155.2713
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10264
+  - label: "PARADE \u2022 Glitter 26"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 155.2713s;
+      spectral flux 0.4762.  | Wide revision: projected burst centre at screen X=0.91.'
+    referenceTime: 155.2713
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 89.77561, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 11598
+  - label: "WIDE \u2022 Peony 28"
+    musicalEvidence: Measured source attack 155.2713s, spectral flux 0.4762; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 155.2713
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 86.58436, y: -0.00033569336, z: 78.000114}
+    height: 40
+    scale: 0.82
+    brightness: 1
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 23397
+  - label: "Final strong repeat \u2022 gold middle 1"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 157.0913s; flux=0.6267; normalized
+      RMS=0.1789. | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 157.0913
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 43.00544, y: -0.00065231323, z: 72.000206}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 10401
+  - label: "WIDE \u2022 Palm 24"
+    musicalEvidence: Measured source attack 157.0913s, spectral flux 0.6267; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 157.0913
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 79.40891, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 1
+    brightness: 1
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 22769
+  - label: "Final strong repeat \u2022 willow high 1"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 158.9113s; flux=0.3630;
+      normalized RMS=0.1941. | Wide revision: projected burst centre at screen X=0.76.'
+    referenceTime: 158.9113
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 63.155853, y: -0.00074386597, z: 82.000244}
+    height: 62
+    scale: 1.1016
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 10538
+  - label: "PARADE \u2022 MultiBreak 12"
+    musicalEvidence: "Extra parade layer on measured source-file attack 158.9113s;
+      spectral flux 0.3630. Secondary flashes are decorative offsets 1.15\u20131.54
+      s after the first flash. | Wide revision: projected burst centre at screen
+      X=0.33."
+    referenceTime: 158.9113
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -39.08763, y: -0.0008430481, z: 78.00028}
+    height: 53
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 6711570096383632612, guid: 734cf6d6c3743ab4c9b70ef3669a6dee, type: 3}
+    seed: 9176
+  - label: "Final strong repeat \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 160.7113s; flux=0.3496; normalized
+      RMS=0.1938. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 160.7113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10675
+  - label: "Final strong repeat \u2022 red fan 2"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 160.7113s; flux=0.3496; normalized
+      RMS=0.1938. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 160.7113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 10812
+  - label: "PARADE \u2022 DoubleRing 34"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 160.7113s;
+      spectral flux 0.3496.  | Wide revision: projected burst centre at screen X=0.84.'
+    referenceTime: 160.7113
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 76.933395, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 5039388528270601146, guid: 3e573b9c17eefd743898bfe95d05c6d3, type: 3}
+    seed: 12982
+  - label: "Final strong repeat \u2022 gold middle 2"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 162.5413s; flux=0.4217; normalized
+      RMS=0.2023. | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 162.5413
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: -8.601108, y: -0.0011978149, z: 72.00038}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 10949
+  - label: "PARADE \u2022 Star 07"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 162.5413s;
+      spectral flux 0.4217.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 162.5413
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.570038, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 8311
+  - label: "Final strong repeat \u2022 willow high 2"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 164.3613s; flux=0.5278;
+      normalized RMS=0.1749. | Wide revision: projected burst centre at screen X=0.44.'
+    referenceTime: 164.3613
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: -14.574428, y: -0.00074386597, z: 82.000244}
+    height: 62
+    scale: 1.1016
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 11086
+  - label: "PARADE \u2022 Glitter 27"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 164.3613s;
+      spectral flux 0.5278.  | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 164.3613
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -89.775604, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 11771
+  - label: "WIDE \u2022 Crossette 33"
+    musicalEvidence: Measured source attack 164.3613s, spectral flux 0.5278; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 164.3613
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: 85.05812, y: -0.0005531311, z: 78.00019}
+    height: 43
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 7451366809783508003, guid: 3a6b7fc78254e9c40b6de564f11f0cd8, type: 3}
+    seed: 24182
+  - label: "Final strong repeat \u2022 red fan 3"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 166.1813s; flux=0.5014; normalized
+      RMS=0.2055. | Wide revision: projected burst centre at screen X=0.12.'
+    referenceTime: 166.1813
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -67.98396, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 11223
+  - label: "Final strong repeat \u2022 red fan 3"
+    musicalEvidence: 'Low red fan begins at the measured rhythmic attack; no airborne
+      explosion. | Measured spectral-flux peak 166.1813s; flux=0.5014; normalized
+      RMS=0.2055. | Wide revision: projected burst centre at screen X=0.86.'
+    referenceTime: 166.1813
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 64.40587, y: 0.00018894672, z: 67.99994}
+    height: 0
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 3486272814870718559, guid: 3c2e9cdfe37665a49bcc16163a9adbd2, type: 3}
+    seed: 11360
+  - label: "PARADE \u2022 MultiBreak 13"
+    musicalEvidence: "Extra parade layer on measured source-file attack 166.1813s;
+      spectral flux 0.5014. Secondary flashes are decorative offsets 1.15\u20131.54
+      s after the first flash. | Wide revision: projected burst centre at screen
+      X=0.84."
+    referenceTime: 166.1813
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 77.140076, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 6711570096383632612, guid: 734cf6d6c3743ab4c9b70ef3669a6dee, type: 3}
+    seed: 9349
+  - label: "Final strong repeat \u2022 gold middle 3"
+    musicalEvidence: 'Sustained high-energy repeated passage; mid gold ring above
+      the low red fan. | Measured spectral-flux peak 168.0013s; flux=0.4691; normalized
+      RMS=0.1881. | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 168.0013
+    anchor: 0
+    riseTime: 2.2
+    launchPosition: {x: 43.00544, y: -0.00065231323, z: 72.000206}
+    height: 47
+    scale: 1.0528
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 11497
+  - label: "Final strong repeat \u2022 willow high 3"
+    musicalEvidence: 'High gold willow layer; repeat raises height and scale, with
+      extended falling tails. | Measured spectral-flux peak 169.9313s; flux=0.2676;
+      normalized RMS=0.2277. | Wide revision: projected burst centre at screen X=0.76.'
+    referenceTime: 169.9313
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 63.155853, y: -0.00074386597, z: 82.000244}
+    height: 62
+    scale: 1.1016
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 11634
+  - label: "PARADE \u2022 Glitter 28"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 170.1613s;
+      spectral flux 0.4233.  | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 170.1613
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 83.20666, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 11944
+  - label: Final repeat release
+    musicalEvidence: 'End of the sustained repeated section; gold decay precedes
+      the last density lift. | Measured spectral-flux peak 171.1813s; flux=0.8280;
+      normalized RMS=0.1805. | Wide revision: projected burst centre at screen X=0.44.'
+    referenceTime: 171.1813
+    anchor: 0
+    riseTime: 2.7
+    launchPosition: {x: -13.449772, y: -0.00088119507, z: 72.00028}
+    height: 62
+    scale: 0.972
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 11771
+  - label: "Finale \u2022 blue punctuation 1"
+    musicalEvidence: "Final high-frequency/percussive density lift (174\u2013185
+      s); only these three cues use thin blue comets. | Measured spectral-flux peak
+      173.9113s; flux=1.2071; normalized RMS=0.1348. | Wide revision: projected burst
+      centre at screen X=0.10."
+    referenceTime: 173.9113
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: -76.81004, y: 0.00022864342, z: 74.99992}
+    height: 0
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 8096900534967855636, guid: 53df332923edfb44f937112d507901a0, type: 3}
+    seed: 11908
+  - label: "PARADE \u2022 DoubleRing 35"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 174.3713s;
+      spectral flux 0.3445.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 174.3713
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.466698, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 5039388528270601146, guid: 3e573b9c17eefd743898bfe95d05c6d3, type: 3}
+    seed: 13155
+  - label: Finale gold 1
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 175.7313s; flux=0.7372; normalized RMS=0.1530.
+      | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 175.7313
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: -9.124021, y: -0.0015983582, z: 78.00052}
+    height: 50
+    scale: 1.0304
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12319
+  - label: "Finale \u2022 blue punctuation 2"
+    musicalEvidence: "Final high-frequency/percussive density lift (174\u2013185
+      s); only these three cues use thin blue comets. | Measured spectral-flux peak
+      177.5913s; flux=0.2617; normalized RMS=0.2582. | Wide revision: projected burst
+      centre at screen X=0.88."
+    referenceTime: 177.5913
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 72.969536, y: 0.00022864342, z: 74.99992}
+    height: 0
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 8096900534967855636, guid: 53df332923edfb44f937112d507901a0, type: 3}
+    seed: 12045
+  - label: "PARADE \u2022 Glitter 29"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 177.5913s;
+      spectral flux 0.2617.  | Wide revision: projected burst centre at screen X=0.34.'
+    referenceTime: 177.5913
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -35.034386, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 12117
+  - label: Finale gold 2
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 179.4213s; flux=0.2445; normalized RMS=0.2244.
+      | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 179.4213
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: 46.10697, y: -0.00035858154, z: 78.00012}
+    height: 54
+    scale: 1.12
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12456
+  - label: "PARADE \u2022 Star 08"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 179.4213s;
+      spectral flux 0.2445.  | Wide revision: projected burst centre at screen X=0.84.'
+    referenceTime: 179.4213
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 77.140076, y: -0.00061416626, z: 78.0002}
+    height: 48
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4667827801596923751, guid: 1b4c50b47089a904891a2c8fc47c16ad, type: 3}
+    seed: 8484
+  - label: "WIDE \u2022 Peony 29"
+    musicalEvidence: Measured source attack 179.4213s, spectral flux 0.2445; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 179.4213
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -89.04727, y: -0.0007247925, z: 78.000244}
+    height: 41
+    scale: 0.68
+    brightness: 1
+    prefab: {fileID: 5041756455294873259, guid: 57bb39e9c3de29b4d9c188800df23a99, type: 3}
+    seed: 23554
+  - label: "Finale \u2022 blue punctuation 3"
+    musicalEvidence: "Final high-frequency/percussive density lift (174\u2013185
+      s); only these three cues use thin blue comets. | Measured spectral-flux peak
+      181.1413s; flux=0.3653; normalized RMS=0.1363. | Wide revision: projected burst
+      centre at screen X=0.51."
+    referenceTime: 181.1413
+    anchor: 1
+    riseTime: 0
+    launchPosition: {x: 1.9202493, y: 0.00022864342, z: 74.99992}
+    height: 0
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 8096900534967855636, guid: 53df332923edfb44f937112d507901a0, type: 3}
+    seed: 12182
+  - label: "PARADE \u2022 DoubleRing 36"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 181.1413s;
+      spectral flux 0.3653.  | Wide revision: projected burst centre at screen X=0.33.'
+    referenceTime: 181.1413
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: -38.466698, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 5039388528270601146, guid: 3e573b9c17eefd743898bfe95d05c6d3, type: 3}
+    seed: 13328
+  - label: "WIDE \u2022 Palm 25"
+    musicalEvidence: Measured source attack 181.1413s, spectral flux 0.3653; outer-sky
+      accent supporting the strong phrase.
+    referenceTime: 181.1413
+    anchor: 0
+    riseTime: 2.1
+    launchPosition: {x: -38.466698, y: -0.00033187866, z: 78.00011}
+    height: 47
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 3125784537012927895, guid: 47b83f13b80531e47936f8abf8fa5a17, type: 3}
+    seed: 22926
+  - label: Finale gold 3
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 183.0113s; flux=0.2938; normalized RMS=0.2014.
+      | Wide revision: projected burst centre at screen X=0.39.'
+    referenceTime: 183.0113
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: -9.124021, y: -0.0015983582, z: 78.00052}
+    height: 50
+    scale: 1.0304
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12593
+  - label: "PARADE \u2022 MultiBreak 14"
+    musicalEvidence: "Extra parade layer on measured source-file attack 183.0113s;
+      spectral flux 0.2938. Secondary flashes are decorative offsets 1.15\u20131.54
+      s after the first flash. | Wide revision: projected burst centre at screen
+      X=0.84."
+    referenceTime: 183.0113
+    anchor: 0
+    riseTime: 2.3
+    launchPosition: {x: 78.17526, y: -0.0008430481, z: 78.00028}
+    height: 53
+    scale: 0.92
+    brightness: 1
+    prefab: {fileID: 6711570096383632612, guid: 734cf6d6c3743ab4c9b70ef3669a6dee, type: 3}
+    seed: 9522
+  - label: Finale gold 4
+    musicalEvidence: 'Late dense phrase: gold layer between restrained blue punctuation.
+      | Measured spectral-flux peak 185.5013s; flux=0.4763; normalized RMS=0.1805.
+      | Wide revision: projected burst centre at screen X=0.70.'
+    referenceTime: 185.5013
+    anchor: 0
+    riseTime: 2.4
+    launchPosition: {x: 46.10697, y: -0.00035858154, z: 78.00012}
+    height: 54
+    scale: 1.12
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 12730
+  - label: "PARADE \u2022 Glitter 30"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 185.5013s;
+      spectral flux 0.4763.  | Wide revision: projected burst centre at screen X=0.91.'
+    referenceTime: 185.5013
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 89.77561, y: -0.00049209595, z: 78.00016}
+    height: 35
+    scale: 0.85
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 12290
+  - label: "Finale \u2022 curtain of gold"
+    musicalEvidence: 'Penultimate strong broadband accent; slow gold tails continue
+      beneath the final hit. | Measured spectral-flux peak 186.6413s; flux=0.8176;
+      normalized RMS=0.1573. | Wide revision: projected burst centre at screen X=0.76.'
+    referenceTime: 186.6413
+    anchor: 0
+    riseTime: 2.9
+    launchPosition: {x: 63.326237, y: -0.0009803772, z: 83.00031}
+    height: 60
+    scale: 1.08
+    brightness: 1
+    prefab: {fileID: 4577329612206486295, guid: 925aaa7145d4f1142a06c1241d402b31, type: 3}
+    seed: 12867
+  - label: "FINAL \u2022 central gold"
+    musicalEvidence: Last clear broadband attack at 188.021 s, followed by final
+      near-silence from about 188.24 s; synchronized first flashes. | Measured spectral-flux
+      peak 188.0213s; flux=0.6827; normalized RMS=0.1824.
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 2.8
+    launchPosition: {x: 8, y: 0, z: 80}
+    height: 58
+    scale: 1.4
+    brightness: 1
+    prefab: {fileID: 3871534570786770698, guid: fcf8902b82ee7844394089d73de865bc, type: 3}
+    seed: 13004
+  - label: "FINAL \u2022 left red"
+    musicalEvidence: 'Last clear broadband attack at 188.021 s, followed by final
+      near-silence from about 188.24 s; synchronized first flashes. | Measured spectral-flux
+      peak 188.0213s; flux=0.6827; normalized RMS=0.1824. | Wide revision: projected
+      burst centre at screen X=0.33.'
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -37.861538, y: -0.0002708435, z: 80.000084}
+    height: 35
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 13141
+  - label: "FINAL \u2022 right red"
+    musicalEvidence: 'Last clear broadband attack at 188.021 s, followed by final
+      near-silence from about 188.24 s; synchronized first flashes. | Measured spectral-flux
+      peak 188.0213s; flux=0.6827; normalized RMS=0.1824. | Wide revision: projected
+      burst centre at screen X=0.84.'
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 75.723076, y: -0.0002708435, z: 80.000084}
+    height: 35
+    scale: 1.1424
+    brightness: 1
+    prefab: {fileID: 4427087130027399400, guid: 219a08343b0dc564ca23f1251b2ffe7b, type: 3}
+    seed: 13278
+  - label: "PARADE \u2022 Glitter 37"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 188.0213s;
+      spectral flux 0.6827.  | Wide revision: projected burst centre at screen X=0.09.'
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: -90.02471, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 13501
+  - label: "PARADE \u2022 Glitter 38"
+    musicalEvidence: 'Extra parade layer on measured source-file attack 188.0213s;
+      spectral flux 0.6827.  | Wide revision: projected burst centre at screen X=0.88.'
+    referenceTime: 188.0213
+    anchor: 0
+    riseTime: 1.7
+    launchPosition: {x: 83.437546, y: -0.00021743774, z: 78.000084}
+    height: 36
+    scale: 0.9
+    brightness: 1
+    prefab: {fileID: 4034558357185077830, guid: ef8fba1980b6d3f4488839d0d5581282, type: 3}
+    seed: 13674
+  paradeVersion: 2
